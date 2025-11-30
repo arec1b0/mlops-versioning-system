@@ -1,0 +1,8 @@
+{
+  "version": "baseline-v1",
+  "timestamp": "2025-11-30T17:29:09.561501",
+  "description": "Baseline before testing",
+  "git_commit": "b86546e619b9130ed6dfd8a9ede72f89f7972118",
+  "dvc_files": [],
+  "mlflow_run_id": null
+}
