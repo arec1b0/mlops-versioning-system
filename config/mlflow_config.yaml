@@ -1,0 +1,31 @@
+# MLflow specific configuration
+mlflow:
+  tracking:
+    enabled: true
+    log_system_metrics: true
+    log_model_artifacts: true
+    
+  model_registry:
+    enabled: true
+    default_stage: "None"
+    stages:
+      - "Staging"
+      - "Production"
+      - "Archived"
+      
+  autolog:
+    sklearn: true
+    tensorflow: false
+    pytorch: false
+    
+  tags:
+    default:
+      project: "mlops-versioning-system"
+      framework: "scikit-learn"
+      
+  artifact_types:
+    - "model"
+    - "data"
+    - "metrics"
+    - "plots"
+    
